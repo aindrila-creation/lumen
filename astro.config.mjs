@@ -1,9 +1,9 @@
 import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 
-// Served from https://subir-uipl.github.io/lumen/, so every internal link goes through BASE_URL.
+// Served from https://aindrila-creation.github.io/lumen/, so every internal link goes through BASE_URL.
 export default defineConfig({
-  site: 'https://subir-uipl.github.io',
+  site: 'https://aindrila-creation.github.io',
   base: '/lumen',
   vite: {
     plugins: [tailwindcss()],
